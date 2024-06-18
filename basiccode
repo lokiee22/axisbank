@@ -1,0 +1,21 @@
+yum install git -y
+
+git --version
+
+mkdir cubproj
+
+cd cubproj/
+
+ll
+
+vi samplecode.java (insert code then :wq!  to save )
+
+git init
+
+ls -a
+
+git add samplecode.java
+
+git status
+
+git comit -m "mybankloginpage"
